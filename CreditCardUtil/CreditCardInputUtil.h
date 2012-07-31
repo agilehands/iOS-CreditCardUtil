@@ -21,17 +21,6 @@ typedef void (^t_ExpiryDateEntered)(int month, int year, BOOL isValid, BOOL isDo
 
 @interface CreditCardInputUtil : CreditCardUtil<UITextFieldDelegate>
 
-@property (nonatomic, assign) BOOL shouldStopOnError;
-@property (nonatomic, assign) BOOL shouldStopOnNotAcceptableCards;
-@property (nonatomic, assign) BOOL shouldStopOnInvalidDateDetected;
-@property (nonatomic, assign) UITextField* txtNumberField;
-@property (nonatomic, assign) UITextField* txtDateField;
-
-@property (nonatomic, strong) t_CardNumberEntered cardEntryCallback;
-@property (nonatomic, strong) t_ExpiryDateEntered dateEntryCallback;
-
-@property (nonatomic, strong) NSString* dateFormat;
-@property (nonatomic, strong) CreditCardInfo* card;
 
 /**
  * Initialization method

@@ -66,7 +66,7 @@
 		CreditCardIssuingNetwork* t3 = [[CreditCardIssuingNetwork alloc] initWithName:@"China UnionPay" 
 																			   prefixes:@"62" 
 																		validCardLengths:@"16-19"
-																				   icon:[UIImage imageNamed:@"credit_card_unknown"] 
+																				   icon:[UIImage imageNamed:@"credit_card_chinaunionpay"] 
 																	validationAlgorithm: nil];
 		t3.numberFormats = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:@"xxxx-xxxx-xxxx-xxxx"
 																, @"xxxx-xxxx-xxxx-xxxxx"
@@ -179,7 +179,7 @@
 		CreditCardIssuingNetwork* t14 = [[CreditCardIssuingNetwork alloc] initWithName:@"Solo" 
 																 prefixes:@"6334,6767"
 														 validCardLengths:@"16,19,18"
-																	 icon:[UIImage imageNamed:@"credit_card_unknown"] 
+																	 icon:[UIImage imageNamed:@"credit_card_solo"] 
 													  validationAlgorithm: luhnsAlogorithm];
 		t14.numberFormats = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:@"xxxx-xxxx-xxxx-xxxx"
 																 , @"xxxx-xxxx-xxxx-xxxxxx"
@@ -193,7 +193,7 @@
 		CreditCardIssuingNetwork* t15 = [[CreditCardIssuingNetwork alloc] initWithName:@"Switch" 
 																 prefixes:@"4903,4905,4911,4936,564182,633110,6333,6759"
 														 validCardLengths:@"16,18,19"
-																	 icon:[UIImage imageNamed:@"credit_card_unknown"] 
+																	 icon:[UIImage imageNamed:@"credit_card_switch"] 
 													  validationAlgorithm: luhnsAlogorithm];
 		t15.numberFormats = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:@"xxxx-xxxx-xxxx-xxxx"
 																 , @"xxxx-xxxx-xxxx-xxxxxx"

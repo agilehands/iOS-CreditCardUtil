@@ -40,6 +40,10 @@
 		02E01E7E15B5963E00ED5CE0 /* credit_card_unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E01E7C15B5963E00ED5CE0 /* credit_card_unknown.png */; };
 		02E01E8015B599C800ED5CE0 /* credit_card_discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E01E7F15B599C800ED5CE0 /* credit_card_discover@2x.png */; };
 		02E01E8115B599C800ED5CE0 /* credit_card_discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E01E7F15B599C800ED5CE0 /* credit_card_discover@2x.png */; };
+		02FA773415C6A73100BF77D5 /* credit_card_switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02FA773315C6A73100BF77D5 /* credit_card_switch@2x.png */; };
+		02FA773715C6A76F00BF77D5 /* credit_card_solo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02FA773615C6A76F00BF77D5 /* credit_card_solo@2x.png */; };
+		02FA773D15C6A8BA00BF77D5 /* credit_card_bankcard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02FA773C15C6A8BA00BF77D5 /* credit_card_bankcard@2x.png */; };
+		02FA774315C6AAA300BF77D5 /* credit_card_chinaunionpay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02FA774215C6AAA300BF77D5 /* credit_card_chinaunionpay@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +91,10 @@
 		02E01E7C15B5963E00ED5CE0 /* credit_card_unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = credit_card_unknown.png; sourceTree = "<group>"; };
 		02E01E7F15B599C800ED5CE0 /* credit_card_discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "credit_card_discover@2x.png"; sourceTree = "<group>"; };
 		02E01E8215B5C09200ED5CE0 /* NSString_CreditCardUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_CreditCardUtil.h; sourceTree = "<group>"; };
+		02FA773315C6A73100BF77D5 /* credit_card_switch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "credit_card_switch@2x.png"; sourceTree = "<group>"; };
+		02FA773615C6A76F00BF77D5 /* credit_card_solo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "credit_card_solo@2x.png"; sourceTree = "<group>"; };
+		02FA773C15C6A8BA00BF77D5 /* credit_card_bankcard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "credit_card_bankcard@2x.png"; sourceTree = "<group>"; };
+		02FA774215C6AAA300BF77D5 /* credit_card_chinaunionpay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "credit_card_chinaunionpay@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +215,10 @@
 		02E01E6915B5935E00ED5CE0 /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				02FA774215C6AAA300BF77D5 /* credit_card_chinaunionpay@2x.png */,
+				02FA773C15C6A8BA00BF77D5 /* credit_card_bankcard@2x.png */,
+				02FA773615C6A76F00BF77D5 /* credit_card_solo@2x.png */,
+				02FA773315C6A73100BF77D5 /* credit_card_switch@2x.png */,
 				02E01E7F15B599C800ED5CE0 /* credit_card_discover@2x.png */,
 				02E01E7C15B5963E00ED5CE0 /* credit_card_unknown.png */,
 				02E01E7315B5956700ED5CE0 /* credit_card_visa@2x.png */,
@@ -296,6 +308,10 @@
 				02E01E7A15B5956700ED5CE0 /* credit_card_americanexpress@2x.png in Resources */,
 				02E01E7D15B5963E00ED5CE0 /* credit_card_unknown.png in Resources */,
 				02E01E8015B599C800ED5CE0 /* credit_card_discover@2x.png in Resources */,
+				02FA773415C6A73100BF77D5 /* credit_card_switch@2x.png in Resources */,
+				02FA773715C6A76F00BF77D5 /* credit_card_solo@2x.png in Resources */,
+				02FA773D15C6A8BA00BF77D5 /* credit_card_bankcard@2x.png in Resources */,
+				02FA774315C6AAA300BF77D5 /* credit_card_chinaunionpay@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
